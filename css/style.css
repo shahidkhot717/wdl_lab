@@ -1,0 +1,101 @@
+body{
+	font-size: 16pt;
+	margin-left: 0;
+	box-sizing: border-box;
+}
+header > nav ul{
+	list-style: none;
+	background-color:#4f4f4f;
+	margin:0; 
+	text-align:center;
+	font-size: 18pt;
+
+}
+header > nav ul li > a{
+	text-decoration: none;
+	color:#ffffff;
+	
+}
+header > nav ul li{
+	display: inline-block;
+	margin-left: 10px;
+}
+footer>div{
+	background-color:#4f4f4f;
+	text-align:center;
+	font-size: 18pt;
+}
+footer{
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+.mypic{ 
+	text-align:center;
+	color: green;
+
+
+}
+.mypic img{
+	width:35%;
+	height: 50%; 
+	border: 1px solid #000000;
+	border-radius: 50%;
+}
+main{
+	margin-top: 10px;
+}
+.contact-form,.social-media{
+	float: left;
+	position: relative;
+	width: 46%;
+	margin-left: 2%;
+	border: 1px solid #000000;
+	padding: 10px;
+	border-radius: 4px 4px;
+
+}
+
+.contact-form h3,.social-media h3{
+	text-align: center;
+
+}
+.social-media i{
+	display: inline;
+	margin-right: 5px;
+
+}
+.social-media a{
+	display: block;
+	color: #000000;
+	text-decoration: none;
+
+}
+.contact-form input[type="submmit"]{
+	width: 88%;
+	display: block;
+	margin:0 left;
+	background-color: #0a84ff;
+	color: #ffffff;
+	border-radius: 2px;
+	border: 0; 
+}
+.gallery figure img{
+	width: 200px;
+	height: 200px;
+	border: 1px solid black;
+}
+.gallery figure{
+	border: 1px solid black;
+	position: relative;
+	float: left;
+	padding: 5px;
+	margin: 10px;
+	text-align: center;
+	font-style: italic;
+
+
+}
+input[type="submit"]{
+	
+}
