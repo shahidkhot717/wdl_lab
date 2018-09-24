@@ -20,7 +20,7 @@ header > nav ul li{
 	display: inline-block;
 	margin-left: 10px;
 }
-footer>div{
+footer > div{
 	background-color:#4f4f4f;
 	text-align:center;
 	font-size: 18pt;
